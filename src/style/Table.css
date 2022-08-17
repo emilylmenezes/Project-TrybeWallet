@@ -1,0 +1,45 @@
+table,
+td,
+th {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(101, 97, 118);
+  color: white;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+.button-editar {
+  background-color: rgb(255, 255, 0);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  width: 60px;
+  height: 25px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-excluir {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 60px;
+  height: 25px;
+  font-size: 14px;
+  border: none;
+  margin-left: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+}
